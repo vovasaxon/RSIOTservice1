@@ -15,7 +15,6 @@ import { GroupsModule } from './groups/groups.module';
     username: 'doadmin',
     password: 'AVNS_Ce8uqmZxPDZTtdEW_n5',
     database: 'defaultdb',
-    sslmode = REQUIRED
     entities: [Student, Group],
     synchronize: true,
   }), StudentsModule, GroupsModule,
