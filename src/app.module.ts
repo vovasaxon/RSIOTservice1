@@ -10,11 +10,12 @@ import { GroupsModule } from './groups/groups.module';
 @Module({
   imports: [TypeOrmModule.forRoot({
     type: 'mysql',
-    host: 'localhost',
-    port: 3306,
-    username: 'root',
-    password: 'sos455405',
-    database: 'nestjs_mysql_distant_edu',
+    host: 'db-mysql-fra1-33941-do-user-13475848-0.b.db.ondigitalocean.com',
+    port: 25060,
+    username: 'doadmin',
+    password: 'AVNS_Ce8uqmZxPDZTtdEW_n5',
+    database: 'defaultdb',
+    sslmode = REQUIRED
     entities: [Student, Group],
     synchronize: true,
   }), StudentsModule, GroupsModule,
