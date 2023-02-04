@@ -13,7 +13,6 @@ import { GroupsModule } from './groups/groups.module';
     host: '34.116.178.181',
     username: 'root',
     password: '123',
-    database: 'nestjs_mysql_distant_edu',
     entities: [Student, Group],
     synchronize: true,
   }), StudentsModule, GroupsModule,
