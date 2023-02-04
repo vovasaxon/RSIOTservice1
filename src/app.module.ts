@@ -14,7 +14,7 @@ import { GroupsModule } from './groups/groups.module';
     username: 'root',
     password: '123',
     port:3306,
-    database:'distant',
+    database:'distance_edu',
     entities: [Student, Group],
     synchronize: true,
   }), StudentsModule, GroupsModule,
