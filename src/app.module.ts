@@ -13,7 +13,7 @@ import { GroupsModule } from './groups/groups.module';
     host: '34.116.178.181',
     username: 'root',
     password: '123',
-    port:'3306',
+    port:3306,
     database:'distant',
     entities: [Student, Group],
     synchronize: true,
